@@ -10,7 +10,7 @@ let accounts;
     welcomeH1.textContent = welcome_h1;
     welcomeH2.textContent = welcome_h2;
     welcomeP.textContent = welcome_p;
-    alert()
+    
     if (window.ethereum) {
       window.web3 = new Web3(window.ethereum);
       checkChain();
