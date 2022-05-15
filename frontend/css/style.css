@@ -8,18 +8,18 @@
   --font-primary: "Poppins", sans-serif;
   --font-secondary: "Arvo", serif;
   --font-code: "Roboto", monospace;
-  --bg-color: #00163f;
-  --bg-color-transparent: #00163f80;
+  --bg-color: #3f61a0;
+  --bg-color-transparent: #3f61a0;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #be7efe;
+  --accent-color: #002874;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
 
 * {
   padding: 0;
-  margin: 0;
+  margin: 2;
   box-sizing: border-box;
 }
 
@@ -40,6 +40,16 @@ body {
   padding: 1rem 2rem;
   justify-content: center;
   overflow: hidden;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  justify-content: center;
+  overflow: visible;
 }
 
 /* HEADER */
@@ -66,7 +76,7 @@ header .container {
   align-items: center;
   height: 100%;
   text-align: center;
-  margin: 0 auto 0 35vw;
+  margin: 0 auto 0;
   opacity: 0;
   transform: translateY(10vh);
   transition: all 0.5s ease-in-out;
@@ -118,7 +128,9 @@ header .container {
   outline: none;
 }
 .btn:hover {
-  box-shadow: none;
+  transition: .5s; 
+  box-shadow: -1px -1px 15px 4px rgba(0,0,0,0.67);
+  color: rgb(255, 174, 0);
 }
 .btn:disabled {
   cursor: default;
@@ -262,7 +274,16 @@ section {
   display: flex;
   align-items: center;
   gap: 3rem;
-  margin: auto;
+  margin: 25px;
+  justify-content: center;
+  border-radius: 20px;
+  border: none;
+  box-shadow: -1px -1px 15px 4px rgba(0,0,0,0.34);
+}
+.mint-btn:hover {
+  transition: .5s; 
+  box-shadow: -1px -1px 15px 4px rgba(0,0,0,0.67);
+  color: rgb(255, 174, 0);
 }
 
 .input-number {
@@ -312,6 +333,7 @@ section {
 
 .minted-container p {
   margin: 1rem 0;
+  text-align: center;
 }
 
 /* SLIDDER */
@@ -342,7 +364,7 @@ section {
 
 /* MEDIA QUERIES */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
   .menu {
     gap: 1rem;
   }
@@ -350,12 +372,6 @@ section {
     margin-left: 0;
     padding: 0.5rem 1rem;
     max-width: 8rem;
-  }
-  .not-connected {
-    background-color: var(--bg-color-transparent);
-    border-radius: 5px;
-    padding: 2rem;
-    margin: 0 auto;
   }
   .countdown ul {
     display: grid;
@@ -386,6 +402,66 @@ section {
   .mint-qty .btn {
     padding: 1rem;
     font-size: 13px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .menu {
+    gap: 0.5rem;
+  }
+  .wallet-btn {
+    margin-left: 0;
+    padding: 0.25rem 0.5rem;
+    max-width: 8rem;
+  }
+  .countdown ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .countdown .clock-item {
+    width: 100%;
+  }
+  .countdown .clock-item .count-number {
+    font-size: 0.75rem;
+  }
+  .countdown .clock-item .count-text {
+    font-size: 0.5rem;
+  }
+  .countdown h1 {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+  }
+  .countdown h2 {
+    padding-top: 0.25rem;
+  }
+  .countdown p {
+    font-size: 0.5rem;
+  }
+  .card {
+    padding: 0.5rem;
+  }
+  .mint-qty .btn {
+    padding: 0.5rem;
+    font-size: 13px;
+  }
+  .not-connected h1 {
+    text-shadow: 2px 2px 0 var(--accent-color);
+    font-style: italic;
+    margin: 1rem 0;
+    font-size: 1.75rem;
+  }
+  
+  .not-connected p {
+    font-size: 1rem;
+    font-family: var(--font-secondary);
+    line-height: 1.8;
+  }
+  
+  .not-connected a {
+    text-decoration: none;
+    color: var(--accent-color);
+    font-size: 0.75rem;
+    font-weight: bold;
   }
 }
 
