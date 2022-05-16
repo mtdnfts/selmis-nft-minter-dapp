@@ -7,6 +7,8 @@ let accounts;
     const welcomeH2 = document.getElementById("welcomeH2");
     const welcomeP = document.getElementById("welcomeP");
 
+    console.log(welcomeH1, welcomeH2, welcomeP)
+
     welcomeH1.textContent = welcome_h1;
     welcomeH2.textContent = welcome_h2;
     welcomeP.textContent = welcome_p;
