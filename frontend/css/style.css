@@ -411,7 +411,7 @@ section {
   }
   .wallet-btn {
     margin-left: 0;
-    padding: 0.25rem 0.5rem;
+    padding: 0.5rem 1rem;
     max-width: 8rem;
   }
   .countdown ul {
@@ -462,6 +462,14 @@ section {
     color: var(--accent-color);
     font-size: 0.75rem;
     font-weight: bold;
+  }
+  .mint-text p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .mint-text h1 {
+    font-size: 1.5rem;
   }
 }
 
