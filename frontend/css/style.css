@@ -336,6 +336,14 @@ section {
   text-align: center;
 }
 
+.mint-text p {
+  text-align: center;
+}
+
+.mint-text h1 {
+  text-align: center;
+}
+
 /* SLIDDER */
 
 .splide {
@@ -470,6 +478,18 @@ section {
 
   .mint-text h1 {
     font-size: 1.5rem;
+  }
+
+  .mint-btn {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 12.5px;
+    justify-content: center;
+    border-radius: 10px;
+    border: none;
+    box-shadow: -1px -1px 15px 4px rgba(0,0,0,0.34);
+    font-size: 1rem;
   }
 }
 
