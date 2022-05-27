@@ -3,7 +3,7 @@ const chain = 'rinkeby'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Selmi's NFT Exlusive Benefits Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
-const welcome_p = "Minting (purchasing) a Selmi's NFT will get you access to all the benefits listed down below at Selmi's Farm! To redeem benefits at check-out enroll at tokenproof.xyz and scan your Selmi's NFT QR code.";
+const welcome_p = "Minting (purchasing) a Selmi's NFT will get you access to all the benefits listed down below at Selmi's Farm!";
 const h1_presale_coming_soon = "NFT Drop Coming Soon!!";
 const h1_presale_mint = "Pre-Sale Minting Open!!";
 const h1_public_mint = "Mint Your Selmi's NFT!!";
