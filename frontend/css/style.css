@@ -448,7 +448,7 @@ section {
   .not-connected a {
     text-decoration: none;
     color: var(--accent-color);
-    font-size: 0.75rem;
+    font-size: 1.25rem;
     font-weight: bold;
   }
   .mint-text p {
