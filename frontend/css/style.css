@@ -363,6 +363,7 @@ section {
     margin-left: 0;
     padding: 0.5rem 1rem;
     max-width: 8rem;
+    color: rgb(123, 202, 159);
   }
   .countdown ul {
     display: grid;
@@ -404,6 +405,7 @@ section {
     margin-left: 0;
     padding: 0.5rem 1rem;
     max-width: 8rem;
+    color: rgb(123, 202, 159);
   }
   .countdown ul {
     display: grid;
@@ -450,7 +452,7 @@ section {
   
   .not-connected a {
     text-decoration: none;
-    color: var(--accent-color);
+    color: rgb(123, 202, 159);
     font-size: 1.25rem;
     font-weight: bold;
   }
