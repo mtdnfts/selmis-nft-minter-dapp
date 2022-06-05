@@ -479,8 +479,8 @@ section {
   }
 
   .logo {
-    max-width: fit-content;
-    max-height: fit-content;
+    max-width: 137px;
+    max-height: 77px;
   }
 }
 
