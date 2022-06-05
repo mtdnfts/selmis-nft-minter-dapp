@@ -477,6 +477,11 @@ section {
     box-shadow: -1px -1px 15px 4px rgba(0,0,0,0.34);
     font-size: 1rem;
   }
+
+  .logo {
+    max-width: fit-content;
+    max-height: fit-content;
+  }
 }
 
 /* UTILITIES */
