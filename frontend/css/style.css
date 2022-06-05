@@ -8,11 +8,12 @@
   --font-primary: "Josefin+Sans", sans-serif;
   --font-secondary: "Arvo", serif;
   --font-code: "Roboto", monospace;
-  --bg-color: #3f61a0;
+  --hd-color: #0000002f;
+  --bg-color: #536E4D;
   --bg-color-transparent: #3f61a0;
   --font-color: #ffffff;
   --btn-bg-color: #ffffff;
-  --accent-color: #000000;
+  --accent-color: #0000005d;
   --header-shadow: var(--accent-color) 0px 0px 5px;
   --card-shadow: var(--accent-color) 0px 0px 20px;
 }
@@ -55,7 +56,7 @@ body {
 /* HEADER */
 
 header {
-  background-color: var(--bg-color);
+  background-color: var(--hd-color);
   box-shadow: var(--header-shadow);
 }
 
@@ -115,7 +116,7 @@ header .container {
   display: inline-block;
   padding: 1rem 2rem;
   background: var(--btn-bg-color);
-  color: var(--accent-color);
+  color: #D59740;
   font-family: var(--font-secondary);
   font-style: italic;
   font-weight: bold;
@@ -132,7 +133,7 @@ header .container {
 .btn:hover {
   transition: .5s; 
   box-shadow: -1px -1px 15px 4px rgba(0,0,0,0.67);
-  color: #536E4D;
+  color: #609AB2;
 }
 .btn:disabled {
   cursor: default;
@@ -286,7 +287,7 @@ section {
 .mint-btn:hover {
   transition: .5s; 
   box-shadow: -1px -1px 15px 4px rgba(0,0,0,0.67);
-  color: #536E4D;
+  color: #609AB2;
 }
 
 .input-number {
