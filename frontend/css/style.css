@@ -478,10 +478,10 @@ section {
     font-size: 1rem;
   }
 
-  .logo {
-    max-width: 137px;
-    max-height: 77px;
+  .logo1 {
+    content:url("images\x-icon\Selmis_Logo_Horizontal_White-02.png");  
   }
+
 }
 
 /* UTILITIES */
