@@ -478,10 +478,9 @@ section {
     font-size: 1rem;
   }
 
-  .logo1 {
-    content:url("images\x-icon\Selmis_Logo_Horizontal_White-02.png");  
+  .menu2 {
+    display: none;
   }
-
 }
 
 /* UTILITIES */
