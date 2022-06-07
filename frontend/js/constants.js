@@ -1,5 +1,5 @@
-const contractAddress = "0x20cA55E676B1608bdbD34D70E9a6C26F2C12911f"; //Replace with your own contract address
-const chain = 'rinkeby'; // rinkeby or polygon
+const contractAddress = "0x77083734d421aB50617cb9cdb32F8CEda4184621"; //Replace with your own contract address
+const chain = 'polygon'; // rinkeby or polygon
 
 const welcome_h1 = "Welcome to the Selmi's NFT Exlusive Benefits Project!!";
 const welcome_h2 = "Connect to MetaMask to Get Started";
